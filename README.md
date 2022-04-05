@@ -15,6 +15,8 @@ To run the backend project, run command `nx serve api`
 Backend project uses MongoDB database, that's why mongodb database connection url is needed to run the project.
 To setup database connection URL, go to `/apps/api` folder and create `.env` file from `.env.example` and add connection url in the `DATABASE_URL=`
 
+In frontend project also create a copy of `.env` file from `.env.example`
+
 
 <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 
